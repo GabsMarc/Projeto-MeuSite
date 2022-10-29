@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    height:70px;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(14, 13, 13);
+    justify-content: space-between;   
+    /* padding: 20px; */
+    height: 80px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    position: sticky;
+    top: 0;
+  }
+
+body{
+    background-color: rgb(187, 187, 187);
+    height: 1000px;
+}
+
+
+#area-cabecalho{
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    color: rgb(221, 66, 213);
+    position: absolute;
+    top: 13px;
+    padding-left: 60px;
+}
+
+.logo span{
+    font-size: 45px;
+}
+
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.menu a{
+    background-color: rgb(141, 8, 153);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: blue;
+    
+}
+
+
+.main{
+    background-image: url(//MeuSite/img/22135.jpg);
+    padding: 100px 0;
+    padding-bottom: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
