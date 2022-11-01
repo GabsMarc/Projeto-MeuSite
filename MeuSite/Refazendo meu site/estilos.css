@@ -78,8 +78,6 @@ body{
 .nav-superior li{
     display: inline;
     list-style: none;
-    padding: 7px;
-    margin: 10px;
 }
 
 .nav-superior ul{
@@ -89,6 +87,8 @@ body{
 .nav-superior a{
     color: white;
     font-size: 18px;
+    padding: 7px;
+    margin: 10px;
 }
 
 a:hover{
