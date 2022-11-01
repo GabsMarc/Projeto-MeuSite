@@ -25,7 +25,6 @@ body{
 
 
 .logo{
-    color: rgb(221, 66, 213);
     position: absolute;
     top: 13px;
     padding-left: 60px;
@@ -33,6 +32,10 @@ body{
 
 .logo span{
     font-size: 45px;
+}
+
+.logo a{
+    color: rgb(221, 66, 213);
 }
 
 .branco{
@@ -53,7 +56,7 @@ body{
 }
 
 .menu a:hover{
-    background-color: blue;  
+    background-color: rgb(98, 0, 255);  
 }
 
 .main{
@@ -91,8 +94,8 @@ body{
     margin: 10px;
 }
 
-a:hover{
-    background-color: rgb(221, 56, 236);
+.nav-superior a:hover{
+    background-color: rgb(98, 0, 255);
     border-radius: 9px;
 }
 
@@ -105,3 +108,36 @@ a:hover{
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+.foto{
+    /* background-color: rgb(255, 0, 255); */
+    height: 380px;
+    width: 390px;
+    margin: 40px;
+    float: left;  
+    border-radius: 50%;  
+}
+
+img{
+    width: 120%;
+}
+
+.conteudo{
+    height: 500px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+
+.conteudo h1{
+    color: white;
+    font-size: 75px;
+    padding-top: 140px;
+}
+
+.conteudo p{
+    font-size: 20px;
+}
+
+
