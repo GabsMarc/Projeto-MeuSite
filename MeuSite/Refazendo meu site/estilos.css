@@ -110,34 +110,42 @@ body{
 }
 
 .foto{
-    /* background-color: rgb(255, 0, 255); */
-    height: 380px;
-    width: 390px;
-    margin: 40px;
-    float: left;  
-    border-radius: 50%;  
+    width: 330px;
+    height: 330px;
+    margin-top: 67px;
+    margin-left: 67px;
+    background-color: rgba(196, 18, 196, 0.466);  
+    border-radius: 50%;
+    box-shadow: 5px 5px rgba(31, 19, 136, 0.635);  
 }
 
 img{
-    width: 120%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 30px;
+    top: 170px;
 }
 
 .conteudo{
     height: 500px;
     margin: 0 auto;
-    width: 500px;
+    width: 800px;
     text-align: center;
-    color: white;
 }
 
 .conteudo h1{
     color: white;
     font-size: 75px;
     padding-top: 140px;
+    text-shadow: 5px 5px rgb(95, 10, 223);
 }
 
 .conteudo p{
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(132, 71, 172);
+    font-weight: bold;
 }
 
 
