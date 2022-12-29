@@ -107,7 +107,7 @@ body{
     text-align: center;
 }
 
-.foto{
+/* .foto{
     width: 330px;
     height: 330px;
     margin-top: 67px;
@@ -115,7 +115,7 @@ body{
     background-color: rgba(196, 18, 196, 0.466);  
     border-radius: 50%;
     box-shadow: 5px 5px rgba(31, 19, 136, 0.635);  
-}
+} */
 
 img{
     width: 400px;
